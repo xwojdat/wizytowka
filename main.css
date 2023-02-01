@@ -1,0 +1,14 @@
+#banner{
+    background-color: darkred;
+    color: white;
+    width: 100%;
+    float: left;
+    display: flex;
+}
+#content{
+    background-color:bisque;
+    color: black;
+    width: 100%;
+    float: left;
+    display: flex;
+}
