@@ -71,5 +71,16 @@ html, body {
     cursor: pointer;
     outline: none;
     position: absolute;
-    top: 70%;
+    top: 40%;
+}
+.button1 {
+    margin-left: -45%;
+}
+    
+.button3 {
+    margin-right: 0%;
+}
+    
+.button4 {
+    margin-right: -45%;
 }
