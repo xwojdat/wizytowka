@@ -21,8 +21,8 @@ h3 {
 .card {
   position: relative;
   margin: auto;
-  height: 350px;
-  width: 600px;
+  height: 100%;
+  width: 100%;
   text-align: center;
   background: linear-gradient(#E96874, #6E3663, #2B0830);
   border-radius: 2px;
@@ -31,58 +31,9 @@ h3 {
   padding: 30px;
 }
 
-.card header {
-  position: absolute;
-  top: 31px;
-  left: 0;
-  width: 100%;
-  padding: 0 10%;
-  transform: translateY(-50%);
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  align-items: center;
-}
-
-.card header > *:first-child {
-  text-align: left;
-}
-.card header > *:last-child {
-  text-align: right;
-}
-
-.logo {
-  font-size: 24px;
-  position: relative;
-}
-.logo:before,
-.logo:after {
-  content: '';
-  position: absolute;
-  top: 50%;
-  border-top: 3px solid currentColor;
-  transform: translateY(-50%);
-}
-
-.logo:before {
-  right: 158px;
-  width: 40%;
-}
-.logo:after {
-  left: 158px;
-  width: 55%;
-}
-
-.logo span {
-  display: block;
-  position: absolute;
-  width: 100%;
-  top: calc(50% - 1px);
-}
-
 .announcement {
   position: relative;
   border: 3px solid currentColor;
-  border-top: 0;
   width: 100%;
   height: 100%;
   display: flex;
@@ -91,21 +42,6 @@ h3 {
   align-items: center;
 }
 
-.announcement:before,
-.announcement:after {
-  content: '';
-  position: absolute;
-  top: 0px;
-  border-top: 3px solid currentColor;
-  height: 0;
-  width: 15px;
-}
-.announcement:before {
-  left: -3px;
-}
-.announcement:after {
-  right: -3px;
-}
 * {
   box-sizing: border-box;
   margin: 0;
@@ -139,8 +75,22 @@ ul {
   list-style: none;
 }
 
-img {
-  vertical-align: middle;
-  height: auto;
-  width: 100%;
+.button1{
+  width: 150px;
+    height: 100px;
+    font-size: 11px;
+    font-family: "Open Sans", sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 2.5px;
+    font-weight: 500;
+    color: white;
+    background-color: #2B0830;
+    border: none;
+    border-radius: 45px;
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease 0s;
+    cursor: pointer;
+    outline: none;
+    position: absolute;
+    top: 60%;
 }
