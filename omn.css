@@ -10,6 +10,7 @@ body {
 h1 {
   font-size: 60px;
 }
+
 h3 {
   font-size: 26px;
 }
@@ -40,6 +41,7 @@ h3 {
   justify-content: center;
   align-items: center;
 }
+
 .announcement p{
     font-size: 20px;
     font-weight: bold;
@@ -83,27 +85,32 @@ h1, h2, h3, h4 {
     position: absolute;
     top: 70%;
   }
-  .button4:hover{
+
+.button4:hover{
     background-color: #E96874;
-  }
+}
 
 #f1,
 #f2{
     width: 250px;
     border: #2B0830 1px solid;
 }
+
 #f1{
     margin-left: -70%;
     margin-top: 20%;
 }
+
 #f2{
     margin-top: 20%;
     margin-right: -70%;
 }
+
 #f3{
     width: 250px;
     margin-top: -50%;
 }
+
 .fa {
   padding: 20px;
   font-size: 30px;
@@ -125,6 +132,7 @@ h1, h2, h3, h4 {
   background: #3B5998;
   color: white;
 }
+
 .fa-youtube {
   background: #bb0000;
   color: white;
@@ -132,6 +140,7 @@ h1, h2, h3, h4 {
   position: absolute;
   margin-top: 23.7%;
 }
+
 .logo img{
   width: 150px;
   position: absolute;

@@ -10,6 +10,7 @@ body {
 h1 {
   font-size: 60px;
 }
+
 h3 {
   font-size: 26px;
 }
@@ -74,6 +75,7 @@ html, body {
     position: absolute;
     top: 40%;
 }
+
 .button1 {
     margin-left: -45%;
 }
@@ -85,11 +87,13 @@ html, body {
 .button4 {
     margin-right: -45%;
 }
+
 .button1:hover,
 .button3:hover,
 .button4:hover{
     background-color: #E96874;
 }
+
 .fa {
     padding: 20px;
     font-size: 30px;
@@ -111,6 +115,7 @@ html, body {
     background: #3B5998;
     color: white;
 }
+
 .fa-youtube {
     background: #bb0000;
     color: white;
@@ -118,6 +123,7 @@ html, body {
     position: absolute;
     margin-top: 25%;
   }
+
   .logo img{
     width: 150px;
     position: absolute;
