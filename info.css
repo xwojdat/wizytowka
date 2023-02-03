@@ -124,9 +124,53 @@ html, body {
     margin-top: 25%;
   }
 
-  .logo img{
+.logo img{
     width: 150px;
     position: absolute;
     margin-top: -15%;
     margin-left: -6%;
+}
+
+@media only screen and (min-width: 320px) and (max-width: 426px){
+
+  .announcement h1, h3{
+    font-size: 160%;
   }
+
+  .logo img{
+    width: 100px;
+    margin-top: -70%;
+    margin-left: -4%;
+  }
+
+  .button1,
+  .button3,
+  .button4{
+    width: 100px;
+    height: 50px;
+    font-size: 7px;
+  }
+
+  .button1{
+    margin-left: 0%;
+  }
+
+  .button3{
+    margin-left: 0%;
+    margin-top: 25%;
+  }
+
+  .button4{
+    margin-left: -45%;
+    margin-top: 50%;
+  }
+
+  .fa{
+    margin-top: 145%;
+    margin-left: 75%;
+  }
+
+  .fa-youtube{
+    margin-left: -75%;
+  }
+}
